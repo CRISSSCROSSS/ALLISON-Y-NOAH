@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <script src="vendor/aframe/build/aframe.min.js"></script>
-<!-- include aframe-ar.js -->
 <script src="../build/aframe-ar.js"></script>
-<!-- Register an aframe component that allows reacting to marker events -->
 <script>
 	AFRAME.registerComponent('registerevents', {
 		init: function () {
@@ -27,7 +25,7 @@
         <video 
                id= "alpha" 
                autoplay loop= "true" 
-               src="https://cdn.glitch.com/62ba5caa-41df-4547-a3e3-f5c9627c4a49%2Ffamilia%20real%20video%20reducido_1.webm">
+               src= "https://cdn.glitch.com/62ba5caa-41df-4547-a3e3-f5c9627c4a49%2Ffamilia%20real%20video%20reducido_1.webm" >
   </video>
   </a-assets>
   <a-scene arjs = "debugUIEnabled: false ; trackingmethod: best; patternRatio: 0.75 ; sourceType: webcam ;" > 
